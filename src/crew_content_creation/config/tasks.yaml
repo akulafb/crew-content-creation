@@ -25,9 +25,22 @@ editing_task:
     Review the blog post for clarity, engagement, and accuracy. Edit for grammar,
     style, and flow. Ensure the content is polished and ready for publication.
     Focus on improving readability and ensuring the message is clear and compelling.
+    Format the final output as a complete, well-designed HTML document with:
+    - A modern, responsive design with clean typography
+    - Embedded CSS styling for a professional appearance
+    - Proper HTML5 structure with semantic elements
+    - Beautiful color scheme, spacing, and typography
+    - Responsive layout that works on all devices
+    - Include the blog title as an H1, proper heading hierarchy, and well-formatted paragraphs
+    - Add a meta viewport tag for mobile responsiveness
+    - Use a clean, modern font stack (e.g., system fonts or Google Fonts)
+    - Include subtle styling for code blocks, lists, and links if needed
+    The HTML should be a complete, standalone document ready to open in a browser.
   expected_output: >
-    A polished, publication-ready blog post with any necessary corrections and improvements
+    A complete, polished HTML document with embedded CSS styling, proper structure,
+    and publication-ready content. The HTML should be beautifully formatted with
+    modern design principles, responsive layout, and professional typography.
   agent: editor
   context:
     - writing_task
-  output_file: output/blog_post.md
+  output_file: output/blog_post.html
